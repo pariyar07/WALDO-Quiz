@@ -1,11 +1,14 @@
 @import url("https://waldo-ui.netlify.app/styles/main.css");
 
 @import url(./homepage.css);
+@import url(./pl-quiz.css);
+@import url(./ucl-quiz.css);
 
 body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 

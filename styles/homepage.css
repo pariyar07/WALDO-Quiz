@@ -3,6 +3,9 @@
     align-items: center;
     justify-content: center;
     margin-top: 3rem;
+    background: linear-gradient(to right, #2b2b2b 0%, #ffffff 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .quiz-wrapper{
@@ -14,7 +17,7 @@
     gap: 3rem;
 }
 .quiz-wrapper>h1{
-    color: var(--primary-clr-hover);
+    color: var(--primary-clr);
 }
 
 .quiz-container{
