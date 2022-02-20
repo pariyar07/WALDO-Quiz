@@ -1,0 +1,24 @@
+@import url("https://waldo-ui.netlify.app/styles/main.css");
+
+@import url(./homepage.css);
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+li{
+    list-style: none;
+}
+
+:root {
+    --primary-clr: white;
+    --primary-bg: black;
+    --primary-clr-hover: #909090;
+    --secondary-bg: #171717;
+    --badge-bg: rgb(0, 153, 255);
+    --placeholder-clr: rgb(200, 200, 200);
+    --liked-clr: #FF0000;
+}

@@ -1,0 +1,57 @@
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.quiz-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 3rem;
+}
+.quiz-wrapper>h1{
+    color: var(--primary-clr-hover);
+}
+
+.quiz-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.pl-quiz, .ucl-quiz{
+    display: flex;
+    background-color: var(--secondary-bg);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.quiz-cover>img{
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    border-radius: 8px;
+}
+
+.quiz-cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-cover:hover{
+    color: var(--primary-clr-hover);
+}
+
+.quiz-cover-info{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem 1rem 2rem;
+    transition: 0.5s;
+}
