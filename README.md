@@ -1,2 +1,2 @@
 # WALDO-Quiz
- Quiz App
+ Football Quiz App. Test your football knowledge.
